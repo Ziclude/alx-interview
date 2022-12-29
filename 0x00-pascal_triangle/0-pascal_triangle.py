@@ -16,7 +16,7 @@ def pascal_triangle(n):
         tp = [0] * (a+1)
         tp[0] = 1
         tp[len(tp) - 1] = 1
-        
+
         for b in range(1, a):
             if b > 0 and b < len(tp):
                 i = output[a - 1][b]
